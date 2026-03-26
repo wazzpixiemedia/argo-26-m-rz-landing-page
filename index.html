@@ -811,6 +811,7 @@
       max-height: 50px;
     }
 
+
     .trx_addons_inline_451327846>ul {
       width: 1560px !important;
     }
@@ -2687,6 +2688,41 @@
                         </div>
                       </div>
 
+                      <div class="filters" aria-label="Filter" bis_skin_checked="1">
+                        <div class="field" bis_skin_checked="1">
+                          <label for="city">Stadt</label>
+                          <select id="city">
+                            <option value="">Stadt (alle)</option>
+                            <option value="leipzig">Leipzig</option>
+                            <option value="magdeburg">Magdeburg</option>
+                            <option value="dresden">Dresden</option>
+                          </select>
+                        </div>
+
+                        <div class="field" bis_skin_checked="1">
+                          <label for="rooms">Zimmer</label>
+                          <select id="rooms">
+                            <option value="">Zimmer (alle)</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4+</option>
+                          </select>
+                        </div>
+
+                        <div class="field" bis_skin_checked="1">
+                          <label for="price">Max. Kaltmiete</label>
+                          <input id="price" type="number" placeholder="Max. Kaltmiete (€)" inputmode="numeric">
+                        </div>
+
+                        <div class="field" bis_skin_checked="1">
+                          <label for="area">Min. Wohnfläche</label>
+                          <input id="area" type="number" placeholder="Min. Wohnfläche (m²)" inputmode="numeric">
+                        </div>
+
+                        <button class="btn primary" type="button" id="apply">Filter anwenden</button>
+                      </div>
+
                       <div
                         class="elementor-element elementor-element-828a2dd e-grid e-con-full sc_layouts_column_icons_position_left e-con e-child trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited"
                         data-id="828a2dd" data-element_type="container" data-e-type="container" bis_skin_checked="1">
@@ -3269,7 +3305,7 @@
                                 <span
                                   class="trx-addons-advanced-title-item trx-addons-advanced-title-item-text elementor-repeater-item-eec72fe">Unsere Zahlen</span><br>
                                 <span
-                                  class="trx-addons-advanced-title-item trx-addons-advanced-title-item-text elementor-repeater-item-e308416">und der heutige Anstieg</span>
+                                  class="trx-addons-advanced-title-item trx-addons-advanced-title-item-text elementor-repeater-item-e308416" style="color: #AE0C21;">und der heutige Anstieg</span>
                               </h1>
                             </div>
                           </div>
@@ -3990,6 +4026,67 @@
                       </div>
                     </div>
                   </div>
+
+                  <section class="blogSection" aria-label="Aktuelles">
+                    <div class="wrap" bis_skin_checked="1">
+                      <div class="sectionHeader" bis_skin_checked="1">
+                        <h2>Aktuelles</h2>
+                        <p class="sub">Hinweise, Tipps und kurze Informationen rund um Wohnungssuche, Besichtigung und Vermietung.</p>
+                      </div>
+                      <br>
+
+                      <div class="blogGrid" role="list" bis_skin_checked="1">
+                        <article class="postCard" role="listitem">
+                          <div class="postBody" bis_skin_checked="1">
+                            <p class="postMeta"><span class="tag">Ratgeber</span><span>·</span><span>Wohnungssuche</span><span>·</span><span>Dezember
+                                2025</span></p>
+                            <h3 class="postTitle">Wohnungssuche: 5 Schritte von der Anfrage bis zur Besichtigung</h3>
+                            <p class="postExcerpt">
+                              Worauf Sie bei der ersten Anfrage achten sollten, welche Unterlagen häufig benötigt werden und wie Sie
+                              sich optimal auf eine Besichtigung vorbereiten.
+                            </p>
+                          </div>
+                          <div class="postFooter" bis_skin_checked="1">
+                            <a class="link" href="#">Beitrag lesen <span aria-hidden="true">→</span></a>
+                          </div>
+                        </article>
+
+                        <article class="postCard" role="listitem">
+                          <div class="postBody" bis_skin_checked="1">
+                            <p class="postMeta"><span class="tag">Praxis</span><span>·</span><span>Unterlagen</span><span>·</span><span>Dezember 2025</span>
+                            </p>
+                            <h3 class="postTitle">Diese Unterlagen helfen bei der Anmietung</h3>
+                            <p class="postExcerpt">
+                              Eine vollständige Unterlagenmappe beschleunigt den Prozess. Wir zeigen, welche Dokumente typischerweise
+                              angefragt werden – kompakt und verständlich.
+                            </p>
+                          </div>
+                          <div class="postFooter" bis_skin_checked="1">
+                            <a class="link" href="#">Beitrag lesen <span aria-hidden="true">→</span></a>
+                          </div>
+                        </article>
+
+                        <article class="postCard" role="listitem">
+                          <div class="postBody" bis_skin_checked="1">
+                            <p class="postMeta"><span class="tag">Standorte</span><span>·</span><span>Leipzig · Magdeburg ·
+                                Dresden</span><span>·</span><span>Dezember 2025</span></p>
+                            <h3 class="postTitle">Wohnlagen in unseren Städten: Orientierung nach Stadtteilen</h3>
+                            <p class="postExcerpt">
+                              Von urbanen Lagen bis ruhigen Wohngebieten: Wir geben eine kurze Einordnung zu Beispielen aus Leipzig,
+                              Magdeburg und Dresden – ohne Portalsprache.
+                            </p>
+                          </div>
+                          <div class="postFooter" bis_skin_checked="1">
+                            <a class="link" href="#">Beitrag lesen <span aria-hidden="true">→</span></a>
+                          </div>
+                        </article>
+                      </div>
+
+                      <div style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap;justify-content: center;" bis_skin_checked="1">
+                        <a class="elementor-button elementor-button-link elementor-size-sm btn primary" href="#">Alle Beiträge ansehen</a>
+                      </div>
+                    </div>
+                  </section>
 
                   <div
                     class="elementor-element elementor-element-7e060991 e-con-full e-grid sc_layouts_column_icons_position_left e-con e-parent trx_addons_parallax_layers_inited trx_addons_parallax_blocks_inited"
