@@ -106,4 +106,6 @@ svg {
 .sectionHeader {
     text-align: center;
 }
-
+.elementor-51 .elementor-element.elementor-element-c2e624f > .elementor-widget-container {
+    margin: 0px !important;
+}
