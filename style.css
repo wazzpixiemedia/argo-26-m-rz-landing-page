@@ -62,8 +62,15 @@ svg {
 .blogGrid {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
     .postCard {
         width: calc((100% - 40px) / 3);
+        @media (max-width: 900px) {
+            width: calc((100% - 20px) / 2);
+        }
+        @media (max-width: 600px) {
+            width: 100%;
+        }
         padding: 20px;
         background: #f4e9e0;
         .postBody {
@@ -95,4 +102,7 @@ svg {
 
 .sectionHeader {
     text-align: center;
+}
+.btn.primary {
+    margin-top: 30px;
 }
