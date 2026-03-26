@@ -1,3 +1,98 @@
 .header-section {
     background-color: #fff !important;
 }
+
+button:where(:not(.components-button):not([class*="wp-block-social"]):not([id="elementor-editor-button"])), input[type="button"], input[type="reset"], input[type="submit"], .theme_button, .post_item .more-link, .wp-block-button__link, .elementor-button, .sc_button_default, .elementor-button  {
+    background-color: #AE0C21 !important;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: #8E091B !important;
+    }
+}
+.elementor-51 .elementor-element.elementor-element-1f317b2b .trx-addons-marquee {
+    color: #AE0C21 !important;
+}
+
+svg {
+    fill: #ae2723 !important;
+}
+
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    background-color: transparent;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.filters .field {
+    border: 1px solid #fff;
+    padding: 0;
+    border-radius: 30px;
+    min-width: 200px;
+    background-color: transparent;
+}
+
+.filters .field:focus-within {
+    border-color: #fff;
+}
+
+.filters label {
+    display: none
+}
+
+.filters select,
+.filters input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: transparent;
+    &:hover {
+        color: #fff;
+    }
+    &:focus {
+        background-color: transparent;
+    }
+}
+
+
+.blogGrid {
+    display: flex;
+    gap: 20px;
+    .postCard {
+        width: calc((100% - 40px) / 3);
+        padding: 20px;
+        background: #f4e9e0;
+        .postBody {
+            color: #051836;
+            .postMeta {
+                margin: 0;
+                font-size: 14px;
+            }
+            .postTitle {
+                margin: 20px 0;
+            }
+        }
+        .postFooter {
+            .link {
+                color: #AE0C21;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+.blogSection {
+    max-width: 1330px;
+    margin: auto;
+    padding: 0 20px 100px;
+}
+
+.sectionHeader {
+    text-align: center;
+}
