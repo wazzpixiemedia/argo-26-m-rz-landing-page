@@ -147,6 +147,37 @@ svg {
 
 @media (max-width: 767px) {
     .elementor-51 .elementor-element.elementor-element-1f317b2b .trx-addons-marquee {
-        font-size: 27vw;
+        font-size: 40vw;
     }
+    .elementor-element.elementor-element-2579e929 {
+        width: 100% !important;
+    }
+}
+
+
+@media (max-width: 1279px) {
+    .elementor-51 .elementor-element.elementor-element-649b8634 {
+        --min-height: 66vh;
+    }
+}
+
+body:not(.rtl) .elementor-51 .elementor-element.elementor-element-3e7ee55 {
+    left: 82%;
+    top: 14%;
+}
+
+body:not(.rtl) .elementor-51 .elementor-element.elementor-element-805628d {
+    left: 82%;
+    top: 27%;
+}
+body:not(.rtl) .elementor-51 .elementor-element.elementor-element-c4e35f5 {
+    left: 25%;
+}
+body:not(.rtl) .elementor-51 .elementor-element.elementor-element-ede5eb0 {
+    left: 24%;
+    top: 69%;
+}
+body:not(.rtl) .elementor-51 .elementor-element.elementor-element-2f4a3cb {
+    left: 46%;
+    top: 67%;
 }
