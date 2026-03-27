@@ -109,3 +109,38 @@ svg {
 .elementor-51 .elementor-element.elementor-element-c2e624f > .elementor-widget-container, .elementor-51 .elementor-element.elementor-element-08cfd7e {
     margin: 0px !important;
 }
+
+
+.social-media-box {
+    h4 {
+        font-size: 16px;
+        color: #fff;
+    }
+    .footerSocial {
+        margin-top: 18px;
+        display: flex;
+        gap: 12px;
+        justify-content: flex-start;
+        .socialLink {
+            width: 44px;
+            height: 41px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #6D7174;
+            transition: all .2s ease;
+            opacity: .9;
+            background: rgba(255, 255, 255, .18);
+            &:hover {
+                background: rgba(255, 255, 255, .3);
+                opacity: 1;
+            }
+            svg {
+                display: block;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
