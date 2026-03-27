@@ -144,3 +144,9 @@ svg {
         }
     }
 }
+
+@media (max-width: 767px) {
+    .elementor-51 .elementor-element.elementor-element-1f317b2b .trx-addons-marquee {
+        font-size: 27vw;
+    }
+}
